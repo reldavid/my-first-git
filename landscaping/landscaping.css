@@ -1,0 +1,229 @@
+#menu li{
+    display: inline-block;
+    position: relative;
+    right: 100px;
+    font-size: 30px;
+    top: 20px;
+    background-color: #00ffff80;
+    margin: 10px;
+}
+  a:visited {
+    color: green;
+  }
+  a:hover {
+    color: red;
+  }
+  a:active {
+    color: yellow;
+  }
+  h3{
+      font-size: 50px;
+  }
+  p{
+      font-size: 25px;
+  }
+  hr{
+      width: 100px;
+      height: 3px;
+      background-color: #4caf50;
+  }
+  
+  
+header h1 {
+    position: fixed;
+    float: left;
+    color: antiquewhite;
+    left: 60px;
+    font-size: 50px;
+    
+}
+nav{
+    position: fixed;
+    /* left: 20px; */
+    right: 20px;
+    float: right;
+    z-index: 1;
+}
+
+#cover{
+    background-attachment: fixed;
+    background-image: url(./img/intro-bg.jpg);
+    height: 800px;width: 400;
+    background-size: cover;       
+}
+#MoreInfo{
+    top: 350px;
+    display: inline-block;
+    position: relative;
+    color: white;
+    text-align: center;
+    left: 300px;
+    font-size: 20px;
+}
+#MoreInfo h2{
+    font-size: 85px
+}
+
+button{
+    background-color: #4caf50;
+    font-size: 20px;
+    border-radius: 25px;
+}
+#wellcome{
+    text-align: center;
+    margin: 20px;
+}
+#wellcomediv{
+    /*border: 3px solid;*/
+    margin: 10px;
+    display: inline-block;
+    position: relative;
+}
+#wellcomediv span{
+    color: #4caf50
+}
+
+#wellcome hr{
+    margin: 0px;
+}
+
+/* #wellcomediv button{
+    font-size: 25px;
+    background-color: greenyellow;
+    border: 3px solid; 
+}*/
+#wellcomediv img{
+    width: 300px;
+}
+#wellcomediv div{
+    display: inline-block;
+}
+#wellcomediv pre{
+    text-align: left;
+    font-family: fantasy, cursive, Arial, Helvetica, sans-serif;
+}
+#wellcome p{
+    font-size: 25px;
+}
+#OurServices{
+    height: 600px;
+    background-color: #4CAF50;
+    text-align: center;
+    padding: 50px;
+
+}
+#OurServices div img{
+    width: 200px;
+    margin: 30px;
+    border-radius: 50%;   
+}
+#OurServices div img:hover{
+    width: 250px;
+    margin: 0px;
+    border-radius: 0%;
+}
+#OurServices div{
+    /*text-align: left;*/
+    font-family: fantasy, cursive, Arial, Helvetica, sans-serif;
+    display: inline-block;
+}
+#OurServices a{
+    text-decoration: none;
+    font-size: 25px;
+
+}
+#ProjectGallery{
+    height: 1000px;
+    text-align: center;
+    padding: 60px;
+    margin-bottom: 100px;
+
+}
+#ProjectGallery img{
+    opacity: 0.5;
+}
+#ProjectGallery img:hover{
+    opacity: 1.0;
+    width: 450px;
+    z-index: 1;
+ }
+#Divgallery li{
+    display: inline-block;
+    font-size: 30px;
+    margin: 30px;
+
+
+}
+#Divgallery a{
+    border-radius: 25px;
+    border: 3px solid;
+    background-color: aqua;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none
+}
+#ProjectGallery img{
+    width: 300px;
+    margin: 20px; 
+    
+}
+#TestimonialsBackground{
+    background-color: #4caf50; 
+}
+#Testimonials{
+    text-align: center;
+    background-image: url(./img/testimonials-bg.jpg);
+    background-position: center;
+    height: 400px;
+    padding: 50px;
+    opacity: 0.5;
+}
+#Testimonials pre{
+    font-size: 20px;
+    color: antiquewhite;
+}
+#ContactUs{
+    text-align: center;
+    margin: 10px;
+
+}
+#ContactUs div{
+    display: inline-block;
+    padding: 10px;
+    margin: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+/* #ContactUs button{
+    font-size: 25px;
+    background-color: greenyellow;
+    border: 3px solid 
+}*/
+#NameEmail{
+    width: 250px;
+    height: 25px;
+    margin: 10px;
+    border: 2px solid #4CAF50;
+}
+#TypeMessage{
+    border: 2px solid #4CAF50;
+}
+footer{
+    height: 150px;
+    background-color: #000000c9;
+    text-align: center;
+}
+footer div{
+    padding: 25px;
+}
+
+footer i{
+    padding: 10px;
+    color: green;
+    border-radius: 50px;
+    background-color: gray;
+    margin-right: 50px;
+}
+footer p{
+    font-size: 20px;
+}
